@@ -30,10 +30,12 @@
       padding: 40px 30px;
       margin-bottom: 30px;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease;
+      transition: all 0.3s ease;
+      cursor: pointer;
 
       &:active {
-        transform: scale(0.98);
+        transform: scale(0.95);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
       }
 
       .card-title {
