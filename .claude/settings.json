@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree -L 3 /Users/henrifox/Desktop/codeEx/MobileProj -I 'node_modules')"
+    ]
+  }
+}
